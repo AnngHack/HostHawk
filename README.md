@@ -41,10 +41,18 @@ git clone https://github.com/yourusername/HostHawk.git
 ```bash
 cd HostHawk
 ```
+### 2. Make the script executable
 ```bash
 chmod +x HostHawk.sh
-2. Make the script executable
+```
+### 3. Run the script
+```bash
 ./HostHawk.sh
-
+```
+### Alternatively, create a symlink to run it globally:
+```bash
 sudo ln -s "$(pwd)/HostHawk.sh" /usr/local/bin/hosthawk
+```
+```bash
 hosthawk
+```
