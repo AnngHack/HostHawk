@@ -2,7 +2,7 @@
 
 **HostHawk** is a lightweight, real-time network scanner built entirely in Bash. It leverages Nmap to discover active hosts on a local subnet, displaying key information like IP address, latency, MAC address, vendor, and hostname in a structured, terminal-friendly table.
 
-Created by **Debanjan**, a cybersecurity testing engineer focused on real-world tooling for network analysis and device discovery.
+Created by **Debanjan**.
 
 ---
 
