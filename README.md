@@ -21,3 +21,26 @@ Created by **Debanjan**, a cybersecurity testing engineer focused on real-world 
 Example output:
 <img width="1219" height="292" alt="image" src="https://github.com/user-attachments/assets/93684fc3-6a02-47b2-a5ef-40b831d2d1a5" />
 
+
+---
+
+## Requirements
+
+- Linux system (tested on Kali Linux)
+- `nmap` must be installed
+- Root privileges (automatically requested if not already)
+
+---
+
+## Installation and Usage
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/HostHawk.git
+cd HostHawk
+chmod +x HostHawk.sh
+./HostHawk.sh
+
+sudo ln -s "$(pwd)/HostHawk.sh" /usr/local/bin/hosthawk
+hosthawk
