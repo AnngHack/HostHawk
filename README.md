@@ -11,8 +11,6 @@ Created by **Debanjan**, a cybersecurity testing engineer focused on real-world 
 - Real-time per-host discovery output (not delayed)
 - Shows IP address, MAC address, latency, vendor, and hostname
 - ARP-based scanning for accuracy on local networks
-- Cleans and formats vendor strings, removing non-ASCII characters
-- Auto-elevates with `sudo` if not run as root
 - Minimal dependencies: just `nmap` and Bash
 - Neatly aligned tabular display in any terminal
 
