@@ -35,11 +35,15 @@ Example output:
 ## Installation and Usage
 
 ### 1. Clone the repository
-
 ```bash
 git clone https://github.com/yourusername/HostHawk.git
+```
+```bash
 cd HostHawk
+```
+```bash
 chmod +x HostHawk.sh
+2. Make the script executable
 ./HostHawk.sh
 
 sudo ln -s "$(pwd)/HostHawk.sh" /usr/local/bin/hosthawk
